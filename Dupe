@@ -1,0 +1,6 @@
+function dupe()
+   game:GetService("ReplicatedStorage").RemoteEvents.Jumped:FireServer()
+   wait(0.29)
+   game:Shutdown()
+end
+dupe()
